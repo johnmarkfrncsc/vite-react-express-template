@@ -2,57 +2,7 @@
 
 {{projectDescription}}
 
-## Stack
-
-This template includes:
-
-- **Frontend**:
-  - React 19
-  - Vite 6
-  - TailwindCSS 4
-  - DaisyUI 5
-  - Modern ESLint configuration
-
-- **Backend**:
-  - Express.js 5
-  - RESTful API structure
-  - Nodemon for hot-reloading
-
 ## Getting Started
-
-1. Install dependencies:
-
-   ```bash
-   npm run install-all
-   ```
-
-2. Start development servers:
-
-   ```bash
-   npm run dev
-   ```
-
-   This will start both the backend server (port 3000) and the frontend dev server.
-
-## Project Structure
-
-```
-.
-├── backend/             # Express backend
-│   ├── index.js         # Main server entry point
-│   └── rest-client/     # HTTP request examples
-├── frontend/            # React frontend (Vite)
-│   ├── public/          # Static assets
-│   └── src/             # React source code
-└── package.json         # Root package.json for running both servers
-```
-
-## Development
-
-- Backend runs on: <http://localhost:3000>
-- Frontend runs on: <http://localhost:5173>
-
-## Using this Template
 
 This repository is set up as a GitHub Template. To use it:
 
@@ -77,6 +27,39 @@ This repository is set up as a GitHub Template. To use it:
    ```bash
    npm run dev
    ```
+
+## Project Structure
+
+```txt
+├── backend/             # Express backend
+│   ├── index.js         # Main server entry point
+│   └── rest-client/     # HTTP request examples
+├── frontend/            # React frontend (Vite)
+│   ├── public/          # Static assets
+│   └── src/             # React source code
+└── package.json         # Root package.json for running both servers
+```
+
+## Tech Stack
+
+This template includes:
+
+- **Frontend**:
+  - React 19
+  - Vite 6
+  - TailwindCSS 4
+  - DaisyUI 5
+  - Modern ESLint configuration
+
+- **Backend**:
+  - Express.js 5
+  - RESTful API structure
+  - Nodemon for hot-reloading
+
+## Development
+
+- Backend runs on: <http://localhost:3000>
+- Frontend runs on: <http://localhost:5173>
 
 ## Author
 
