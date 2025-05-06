@@ -1,0 +1,21 @@
+name: Template Initialization Guide
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  display-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Display Template Usage Guide
+        run: |
+          echo "## How to Use This Template"
+          echo ""
+          echo "1. After creating a repository from this template, clone it locally"
+          echo "2. Run the initialization script: node init-template.js"
+          echo "3. Install dependencies: npm run install-all"
+          echo "4. Start development: npm run dev"

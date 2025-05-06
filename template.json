@@ -1,0 +1,20 @@
+{
+    "name": "fullstack-react-express-template",
+    "description": "A full-stack template with React frontend (Vite, TailwindCSS, DaisyUI) and Express backend",
+    "version": "1.0.0",
+    "author": "Genre Mamanao",
+    "variables": {
+        "projectName": {
+            "description": "Name of your project",
+            "default": "my-fullstack-app"
+        },
+        "projectDescription": {
+            "description": "Brief description of your project",
+            "default": "A full-stack application built with React and Express"
+        },
+        "authorName": {
+            "description": "Your name",
+            "default": "Developer"
+        }
+    }
+}

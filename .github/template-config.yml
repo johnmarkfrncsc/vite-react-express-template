@@ -1,0 +1,5 @@
+# These are configuration settings for the GitHub template repository
+templates:
+  - name: "Full-Stack React Express Template"
+    description: "A full-stack template with React frontend (Vite, TailwindCSS, DaisyUI) and Express backend"
+    icon: "🚀"

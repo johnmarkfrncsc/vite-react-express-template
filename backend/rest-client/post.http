@@ -1,0 +1,8 @@
+POST http://localhost:3000/api?name=Genre&age=21
+Content-Type: application/json
+
+{
+    "name": "Optical Mouse",
+    "description": "A high-precision optical mouse",
+    "remarks": "Serviceable"
+}

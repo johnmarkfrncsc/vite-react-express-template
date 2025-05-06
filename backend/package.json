@@ -1,0 +1,17 @@
+{
+  "name": "{{projectName}}-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -q index.js"
+  },
+  "keywords": [],
+  "author": "{{authorName}}",
+  "license": "ISC",
+  "description": "Backend for {{projectDescription}}",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
