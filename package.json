@@ -1,5 +1,5 @@
 {
-    "name": "{{projectName}}",
+    "name": "test-MusicApp",
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
@@ -8,11 +8,12 @@
         "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend"
     },
     "keywords": [],
-    "author": "{{authorName}}",
+    "author": "John Mark Francisco",
     "license": "ISC",
-    "description": "{{projectDescription}}",
+    "description": "React",
     "dependencies": {
-        "nodemon": "^3.1.10"
+        "nodemon": "^3.1.10",
+        "react-router-dom": "^7.6.0"
     },
     "devDependencies": {
         "concurrently": "^9.1.2"

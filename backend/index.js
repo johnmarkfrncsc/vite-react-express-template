@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 
 app.post('/api', (req, res) => {
-    res.status(200).json({ message: "Welcome to the API", version: "1.0.0", author: "{{authorName}}" });
+    res.status(200).json({ message: "Welcome to the API", version: "1.0.0", author: "John Mark Francisco" });
 });
 
 app.listen(3000, () => {

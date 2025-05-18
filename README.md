@@ -1,6 +1,6 @@
-# {{projectName}}
+# test-MusicApp
 
-{{projectDescription}}
+React
 
 ## Getting Started
 
@@ -63,4 +63,4 @@ This template includes:
 
 ## Author
 
-Created by {{authorName}}
+Created by John Mark Francisco
