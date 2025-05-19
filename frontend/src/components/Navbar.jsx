@@ -8,7 +8,7 @@ const Navbar = () => {
 
       <img src={logoTransparent} alt="BiteLine Logo" className="h-16 w-auto" />
 
-      <div className="flex gap-10">
+      <div className="flex gap-10 text-sm font-semibold">
         <Link to="/home">Home</Link>
         <Link to="/menu">Menu</Link>
       </div>
