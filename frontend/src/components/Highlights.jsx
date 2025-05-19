@@ -18,9 +18,17 @@ const Highlights = () => {
           </h1>
         </div>
       </div>
-      <h2 className="font-bold text-3xl">Brie Beef Burger</h2>
+
+      <div>
+        <h2 className="font-bold text-3xl">Brie Beef Burger</h2>
       <p> Black Truffle and Brie Beef Burger with Caramelized Shallots</p>
-      <div className="flex justify-center md:justify-end gap-4 mt-5">
+        <span className="text-orange-300 font-semibold">
+          ₱ 229.00
+        </span>
+
+      </div>
+      
+      <div className="flex justify-center md:justify-end gap-4">
         <button className="bg-yellow-500 px-4 py-2 rounded-4xl text-white font-bold">
           Order now
         </button>
