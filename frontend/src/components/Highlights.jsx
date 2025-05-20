@@ -52,12 +52,6 @@ const Highlights = () => {
           <p className="textarea-md md:text-xl">
             {slides[currentSlide].description}
           </p>
-
-          <Link to="/menu">
-            <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
-              Shop now
-            </button>
-          </Link>
         </div>
       </div>
 

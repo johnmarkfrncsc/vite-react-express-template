@@ -1,53 +1,74 @@
 import React from "react";
 import Highlights from "../components/Highlights.jsx";
-import burgerCategory from "../assets/catergories/burgerCategory.png";
-import articleBurger from "../assets/articleIMG/articleBurger.jpeg";
-import articlePasta from "../assets/articleIMG/articlePasta.jpg";
+import articleDrill from "../assets/articleIMG/articleDrill.jpg";
+import articleCarwash from "../assets/articleIMG/articleCarwash.jpg";
+import articleGrassCutter from "../assets/articleIMG/articleGrassCutter.jpeg";
+import { Link } from "react-router-dom";
+import NewArrival from "../components/NewArrival.jsx";
 
 const Homepage = () => {
   return (
     <header className="bg-neutral-950 min-h-screen">
       <Highlights />
-      <main className="bg-amber-900 h-screen">
-        pokingina
-
-        <article className="px-5">
-
-          <div class="card image-full w-fit md:w-56 rounded-2xl pb-2  ">
+      <main className="bg-neutral-950 h-full px-2">
+        POTANGINANG HOMEPAGE TO
+        <article className=" flex flex-col md:flex-row gap-2">
+          <div class="card image-full w-fit md:w-full rounded-none">
             <figure>
-              <img src={articleBurger} alt="Burger-Category" />
+              <img src={articleDrill} alt="article-Drill" />
             </figure>
-            <div class="card-body absolute transform  text-left z-10 ">
-              <h2 class="font-semibold">Try it today</h2>
-              <h1 className="card-title font-bold">Most popular burgers </h1>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+            <div class="card-body absolute transform text-left z-10 mt-10 ">
+              <h1 class="font-bold text-2xl">Drill Machine</h1>
+              <p className="font-semibold">Check for best prices </p>
+
+              <Link to="/menu">
+                <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
+                  See More
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div class="card image-full w-fit md:w-full rounded-none">
+            <figure>
+              <img src={articleCarwash} alt="article-Carwash" />
+            </figure>
+            <div class="card-body absolute transform text-left z-10 mt-10 ">
+              <h1 class="font-bold text-2xl">Carwash Supplies</h1>
+              <p className="font-semibold">
+                Shop Now for All Your Carwash Essentials
+              </p>
+              <div class="card-actions">
+                <Link to="/menu">
+                  <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
+                    See More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
 
-         <div class="card image-full w-fit md:w-56 rounded-2xl  ">
+          <div class="card image-full w-fit md:w-full rounded-none">
             <figure>
-              <img src={articlePasta} alt="Burger-Category" />
+              <img src={articleGrassCutter} alt="article-GrassCutter" />
             </figure>
-            <div class="card-body absolute transform  text-left z-10 ">
-              <h2 class="font-semibold">Try it today</h2>
-              <h1 className="card-title font-bold">More fun and fresh </h1>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+            <div class="card-body absolute transform text-left z-10 mt-10 ">
+              <h1 class="font-bold text-2xl">Grass Cutters</h1>
+              <p className="font-semibold">
+                Find the Best Grass Cutters Here
+              </p>
+              <div class="card-actions">
+                <Link to="/menu">
+                  <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
+                    See More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
-
         </article>
-        {/* <div className="card bg-base-100 size-30 gap-2">
-          <img
-            src={burgerCategory}
-            alt="Burger-Category"
-            className="w-auto h-auto bg-cover"
-          />
-          <h2 class="card-title justify-center">Burgers</h2>
-        </div> */}
+
+        <NewArrival/>
       </main>
     </header>
   );
