@@ -6,12 +6,12 @@ import articlePasta from "../assets/articleIMG/articlePasta.jpg";
 
 const Homepage = () => {
   return (
-    <header className="bg-neutral-950 min-h-screen px-2">
+    <header className="bg-neutral-950 min-h-screen">
       <Highlights />
-      <main className="bg-amber-900 mt-10 h-screen">
+      <main className="bg-amber-900 h-screen">
         pokingina
 
-        <article className="">
+        <article className="px-5">
 
           <div class="card image-full w-fit md:w-56 rounded-2xl pb-2  ">
             <figure>

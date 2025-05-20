@@ -8,7 +8,7 @@ const LoginPage = () => {
         className="hero min-h-screen"
         style={{
           backgroundImage:
-            "url(https://images.pexels.com/photos/5864595/pexels-photo-5864595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+            "url(https://images.pexels.com/photos/4892130/pexels-photo-4892130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
         }}
       >
         <div class="p-5 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm border border-transparent">

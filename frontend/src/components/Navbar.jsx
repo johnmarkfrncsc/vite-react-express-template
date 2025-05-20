@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoTransparent from "../assets/logo/logo-transparent.png";
+import logo from "../assets/logo/logo.png";
 
 const Navbar = () => {
   return (
-    <header className="flex items-center gap-4 px-6 justify-between">
+    <header className="flex items-center gap-4 px-4 md:py-2 justify-between bg-neutral-50 text-black">
 
-      <img src={logoTransparent} alt="BiteLine Logo" className="h-16 w-auto" />
+      <img src={logo} alt="BiteLine Logo" className="h-12 w-auto" />
 
       <div className="flex gap-10 text-sm font-semibold">
         <Link to="/home">Home</Link>
