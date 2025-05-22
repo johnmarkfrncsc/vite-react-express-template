@@ -5,20 +5,20 @@ import articleCarwash from "../assets/articleIMG/articleCarwash.jpg";
 import articleGrassCutter from "../assets/articleIMG/articleGrassCutter.jpeg";
 import { Link } from "react-router-dom";
 import NewArrival from "../components/NewArrival.jsx";
+import GoogleMapEmbed from "../components/GoogleMapEmbed.jsx";
 
 const Homepage = () => {
   return (
     <header className="bg-neutral-950 min-h-screen">
       <Highlights />
       <main className="bg-neutral-100 h-full px-2">
-        POTANGINANG HOMEPAGE TO
-        <article className="flex gap-2 overflow-x-auto flex-nowrap px-1">
+        <article className="flex gap-2 overflow-x-auto flex-nowrap px-1 pt-5">
           <Link
             to="/menu"
             className="card image-full w-70 flex-none rounded-none lg:w-90"
           >
             <figure>
-              <img src={articleDrill} alt="article-Drill"/>
+              <img src={articleDrill} alt="article-Drill" />
             </figure>
             <div className="card-body absolute transform text-left z-10 mt-10">
               <h1 className="font-bold text-2xl">Drill Machine</h1>
@@ -55,6 +55,13 @@ const Homepage = () => {
           </Link>
         </article>
         <NewArrival />
+
+    <div className="min-h-screen bg-gray-50">
+      <h1 className="text-2xl font-bold mb-4 text-black">Visit Our Stores</h1>
+      <GoogleMapEmbed />
+    </div>
+        
+  
       </main>
     </header>
   );
