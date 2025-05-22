@@ -10,65 +10,51 @@ const Homepage = () => {
   return (
     <header className="bg-neutral-950 min-h-screen">
       <Highlights />
-      <main className="bg-neutral-950 h-full px-2">
+      <main className="bg-neutral-100 h-full px-2">
         POTANGINANG HOMEPAGE TO
-        <article className=" flex flex-col md:flex-row gap-2">
-          <div class="card image-full w-fit md:w-full rounded-none">
+        <article className="flex gap-2 overflow-x-auto flex-nowrap px-1">
+          <Link
+            to="/menu"
+            className="card image-full w-70 flex-none rounded-none lg:w-90"
+          >
             <figure>
-              <img src={articleDrill} alt="article-Drill" />
+              <img src={articleDrill} alt="article-Drill"/>
             </figure>
-            <div class="card-body absolute transform text-left z-10 mt-10 ">
-              <h1 class="font-bold text-2xl">Drill Machine</h1>
-              <p className="font-semibold">Check for best prices </p>
-
-              <Link to="/menu">
-                <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
-                  See More
-                </button>
-              </Link>
+            <div className="card-body absolute transform text-left z-10 mt-10">
+              <h1 className="font-bold text-2xl">Drill Machine</h1>
+              <p className="font-semibold">Check for best prices</p>
             </div>
-          </div>
+          </Link>
 
-          <div class="card image-full w-fit md:w-full rounded-none">
+          <Link
+            to="/menu"
+            className="card image-full w-70 flex-none rounded-none lg:w-90"
+          >
             <figure>
               <img src={articleCarwash} alt="article-Carwash" />
             </figure>
-            <div class="card-body absolute transform text-left z-10 mt-10 ">
-              <h1 class="font-bold text-2xl">Carwash Supplies</h1>
+            <div className="card-body absolute transform text-left z-10 mt-10">
+              <h1 className="font-bold text-2xl">Carwash Supplies</h1>
               <p className="font-semibold">
                 Shop Now for All Your Carwash Essentials
               </p>
-              <div class="card-actions">
-                <Link to="/menu">
-                  <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
-                    See More
-                  </button>
-                </Link>
-              </div>
             </div>
-          </div>
+          </Link>
 
-          <div class="card image-full w-fit md:w-full rounded-none">
+          <Link
+            to="/menu"
+            className="card image-full w-70 flex-none rounded-none lg:w-90"
+          >
             <figure>
               <img src={articleGrassCutter} alt="article-GrassCutter" />
             </figure>
-            <div class="card-body absolute transform text-left z-10 mt-10 ">
-              <h1 class="font-bold text-2xl">Grass Cutters</h1>
-              <p className="font-semibold">
-                Find the Best Grass Cutters Here
-              </p>
-              <div class="card-actions">
-                <Link to="/menu">
-                  <button className="btn btn-xs border-0 shadow-none rounded-xl w-auto mt-1 md:btn-lg md:rounded-4xl  bg-amber-300 text-black ">
-                    See More
-                  </button>
-                </Link>
-              </div>
+            <div className="card-body absolute transform text-left z-10 mt-10">
+              <h1 className="font-bold text-2xl">Grass Cutters</h1>
+              <p className="font-semibold">Find the Best Grass Cutters Here</p>
             </div>
-          </div>
+          </Link>
         </article>
-
-        <NewArrival/>
+        <NewArrival />
       </main>
     </header>
   );

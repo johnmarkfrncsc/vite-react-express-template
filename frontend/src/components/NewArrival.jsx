@@ -51,7 +51,7 @@ const NewArrival = () => {
         {products.map((product) => (
           <div
             key={product.id}
-            className="w-full sm:w-[48%] lg:w-[23%] bg-white border-2 border-green-300 text-neutral-600 p-2 flex justify-between items-start"
+            className="w-full sm:w-[48%] lg:w-[30%] bg-white border-2 border-green-300 text-neutral-600 p-2 flex justify-between items-start"
           >
             <div className="flex-1">
               <span className="block font-bold text-base mb-1">
