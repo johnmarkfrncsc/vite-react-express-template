@@ -6,11 +6,14 @@ import articleGrassCutter from "../assets/articleIMG/articleGrassCutter.jpeg";
 import { Link } from "react-router-dom";
 import NewArrival from "../components/NewArrival.jsx";
 import GoogleMapEmbed from "../components/GoogleMapEmbed.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Homepage = () => {
   return (
-    <header className="bg-neutral-950 min-h-screen">
-      <Highlights />
+    <>
+      <header className="bg-neutral-950">
+        <Highlights />
+      </header>
       <main className="bg-neutral-100 h-full px-2">
         <article className="flex gap-2 overflow-x-auto flex-nowrap px-1 pt-5">
           <Link
@@ -56,14 +59,15 @@ const Homepage = () => {
         </article>
         <NewArrival />
 
-    <div className="min-h-screen bg-gray-50">
-      <h1 className="text-2xl font-bold mb-4 text-black">Visit Our Stores</h1>
-      <GoogleMapEmbed />
-    </div>
-        
-  
+        <section className=" bg-gray-50 py-5 px-4">
+          <h1 className="text-2xl font-bold mb-4 text-black">
+            Visit Our Stores
+          </h1>
+          <GoogleMapEmbed />
+        </section>
       </main>
-    </header>
+      <Footer/>
+    </>
   );
 };
 

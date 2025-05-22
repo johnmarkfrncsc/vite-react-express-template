@@ -4,7 +4,7 @@ import logo from "../assets/logo/logo.png";
 
 const Navbar = () => {
   return (
-    <header className="flex items-center gap-4 px-4 md:py-2 justify-between bg-neutral-50 text-black">
+    <header className="flex items-center gap-4 px-4 md:py-2 justify-between bg-neutral-950 text-white">
 
       <img src={logo} alt="BiteLine Logo" className="h-12 w-auto" />
 
