@@ -27,13 +27,13 @@ const products = [
   },
   {
     id: 4,
-    name: "Toyohama Silent Inverter Generator",
+    name: "Toyohama Grass Cutter",
     description: "PROFESSIONAL TOOLS",
     img: newProduct4,
   },
   {
     id: 5,
-    name: "Kawasaki Power SprayerPressure Washer KC25A",
+    name: "Kawasaki Power Sprayer Pressure Washer KC25A",
     description: "PROFESSIONAL TOOLS",
     img: newProduct5,
   },
