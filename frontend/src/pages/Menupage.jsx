@@ -28,12 +28,12 @@ const Menupage = () => {
           >
           {products.map((product) => (
             <SwiperSlide key={product.id}>
-              <div className="card image-full w-full h-[200px] shadow-sm rounded-none">
+              <div className="card image-full w-full h-[150px] shadow-sm rounded-none">
                 <figure>
                   <img src={product.img} alt={product.title} />
                 </figure>
-                <div className="card-body rounded-none">
-                  <h2 className="card-title">{product.title}</h2>
+                <div className="card-body rounded-none flex justify-center">
+                  <h2 className="card-title text-3xl justify-center">{product.title}</h2>
                 </div>
               </div>
             </SwiperSlide>

@@ -57,16 +57,17 @@ const Homepage = () => {
             </div>
           </Link>
         </article>
+
         <NewArrival />
 
         <section className=" bg-gray-50 py-5 px-4">
-          <h1 className="text-2xl font-bold mb-4 text-black">
+          <h1 className="text-2xl font-semibold mb-4 text-black text-center">
             Visit Our Stores
           </h1>
           <GoogleMapEmbed />
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };
