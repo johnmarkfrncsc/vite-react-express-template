@@ -15,7 +15,7 @@ const Homepage = () => {
         <Highlights />
       </header>
       <main className="bg-neutral-100 h-full px-2">
-        <article className="flex gap-2 overflow-x-auto flex-nowrap px-1 pt-5">
+        <article className="flex gap-2 overflow-x-auto flex-nowrap px-1 pt-5 md:justify-center">
           <Link
             to="/menu"
             className="card image-full w-70 flex-none rounded-none lg:w-90"
@@ -60,7 +60,7 @@ const Homepage = () => {
 
         <NewArrival />
 
-        <section className=" bg-gray-50 py-5 px-4">
+        <section className=" bg-gray-50 py-5 px-1">
           <h1 className="text-2xl font-semibold mb-4 text-black text-center">
             Visit Our Stores
           </h1>

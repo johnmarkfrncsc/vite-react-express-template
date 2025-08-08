@@ -41,7 +41,7 @@ const products = [
 
 const NewArrival = () => {
   return (
-    <div className="py-5 px-4 max-w-screen-xl mx-auto">
+    <div className="py-5 px-2 max-w-screen-xl mx-auto">
       <h1 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
         New Arrival Item
       </h1>
